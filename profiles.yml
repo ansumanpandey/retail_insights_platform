@@ -1,0 +1,6 @@
+retail_insights_platform:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: retaildw.duckdb
