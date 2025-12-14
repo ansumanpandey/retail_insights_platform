@@ -1,4 +1,16 @@
+# DuckDB
+*.duckdb
+*.duckdb.wal
 
+# dbt
 target/
 dbt_packages/
 logs/
+
+# Python
+venv/
+__pycache__/
+
+# OS
+.DS_Store
+
