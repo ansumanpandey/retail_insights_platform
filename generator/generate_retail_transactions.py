@@ -1,8 +1,8 @@
-import duckdb
-import pandas as pd
+import duckdb # type: ignore
+import pandas as pd # type: ignore
 import datetime
 import random
-from faker import Faker
+from faker import Faker # type: ignore
 
 # -----------------------
 # Setup
