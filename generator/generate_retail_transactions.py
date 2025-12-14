@@ -10,7 +10,7 @@ from faker import Faker # type: ignore
 random.seed(42)
 fake = Faker("en_IN")
 
-con = duckdb.connect("retail_banking.duckdb")
+con = duckdb.connect("retaildw.duckdb")
 
 today = datetime.date.today()
 load_date = today.isoformat()
